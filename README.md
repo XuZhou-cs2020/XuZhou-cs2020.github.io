@@ -86,7 +86,7 @@ If all the steps are done correctly, you can view your resume now by enter the a
 ![gifn](/gif/demo.gif)
 
 
-##Extra Resource
+## Extra Resource
 If you have few knowledge about Markdown, [here](https://www.markdowntutorial.com/) is a 25-30mins practise.
 
 If you have difficulty on finish your resum, [Etter's book](https://read.amazon.ca/?ref_=dbs_p_ebk_r00_pbcb_rnvc00&_encoding=UTF8&asin=B01A2QL9SS) can provide you some advices.
