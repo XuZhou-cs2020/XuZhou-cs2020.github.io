@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # README
 ![img1](/img/readme.jpg)
 
@@ -80,6 +80,11 @@ When we change the content in the clone of repository, GitHub desktop will show 
 
 Then we can just push it back and check it on our GitHub account.
 
+**Demo**
+If all the steps are done correctly, you can view your resume now by enter the address USERNAME.github.io:
+
+![gifn](/gif/demo.gif)
+
 
 ##Extra Resource
 If you have few knowledge about Markdown, [here](https://www.markdowntutorial.com/) is a 25-30mins practise.
@@ -135,6 +140,6 @@ If you are not familar how that works, just keep it.
 
 **Q:I have host my site, but why my resume does not show up?**
 
-A: If you have already push it back to github, please recheck you address. The address should followed your GitHub ID exactly.
+A: If you have already push it back to github, please recheck you address. The address should followed your GitHub ID exactly. Also,check your address and make sure that follows the format of USERNAME.github.io.
 
 
