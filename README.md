@@ -25,7 +25,7 @@ ruby environment first. For most templates, you need the verson 2.7.7-1 due to t
  *  [mac](https://www.youtube.com/watch?v=WhrU9m82Wm8&list=PLLAZ4kZ9dFpOPV5C5Ay0pHaa0RJFhcmcB&index=2)
 
 
-##instruction
+## instruction
 
 **Important:** All of the following instructions are finished in ***WINDOWS*** operating system and focus on the steps of handling GitHub resources. Check **Extra resources**  to get the operations on mac or other non-Windows operating system.
 
@@ -93,12 +93,12 @@ If you have difficulty on finish your resum, [Etter's book](https://read.amazon.
 
 Since I used windows OS for the instruction, you can find another version of instructions [here](https://read.amazon.ca/?ref_=dbs_p_ebk_r00_pbcb_rnvc00&_encoding=UTF8&asin=B01A2QL9SS) about how to do all the procedure on mac.
 
-##Authors and Acknowledgments
+## Authors and Acknowledgments
 The resume templates I used in instructions came from [here](https://github.com/sproogen/modern-resume-theme).Thanks for [name] who provide the template and well designed readme.
 
-Also thanks for [] and [], the group members who provide precious advices to make my files looks better.
+Also thanks for Craig Banahene  and Quinn Wong, the group members who provide precious advices to make my files looks better.
 
-##FAQ
+## FAQ
 **Q: Is it necessary to using markdown format for the word process?**
 
 A:Unforturnately, yes. 
