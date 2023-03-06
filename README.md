@@ -136,8 +136,5 @@ If you are not familar how that works, just keep it.
 **Q:I have host my site, but why my resume does not show up?**
 
 A: If you have already push it back to github, please recheck you address. The address should followed your GitHub ID exactly.
-=======
-# XuZhou-cs2020.github.io
 
-##this is a test##
->>>>>>> 691e2ab63608d685747b41d15b03400e2c5a4435
+
