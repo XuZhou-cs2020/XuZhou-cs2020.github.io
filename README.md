@@ -31,43 +31,61 @@ ruby environment first. For most templates, you need the verson 2.7.7-1 due to t
 
 Step 1. **Find a suitable template.**
 
- This instruction will not recommend you build a resume from scratch, instead of it, we will use an online resume template to start. The template I used for this instruction is [here](https://github.com/sproogen/modern-resume-theme).
- 
-It should looks like this:
+_Find a theme and a static site generator with content should always be a part before we attempt to do something more complex, furthermore, it helps a lot to deduce the duplicated work.—— Conclude from Etter's book, page 31,about make static website._
+
+* This instruction will not recommend you build a resume from scratch, instead of it, we will use an online resume template to start. The template I used for this instruction is [here](https://github.com/sproogen/modern-resume-theme).
+ It should looks like this:
 ![img2](/img/case.jpg)
 
-If you do not like this template, you can find more [here](https://jekyllthemes.io/free).But remember, what we need is the GitHub page for the following steps. 
+* If you do not like this template, you can find more [here](https://jekyllthemes.io/free).But remember, what we need is the GitHub page for the following steps. 
+
 
 
 Step 2. **create a fork from the template you find.**
 
-In easier word, we are attempting 'clone' the template. Fork buttern can be found easily as the following GIF:
+* In easier word, we are attempting 'clone' the template. Fork buttern can be found easily as the following GIF:
  ![gif1](/gif/fork.gif)
 
-As I showed in the GIF, I create a fork named A2ver_1.0. The prefix of your repository depends on your GitHub account.
+* As I showed in the GIF, I create a fork named A2ver_1.0. The prefix of your repository depends on your GitHub account.
+
+_Links, gifs and video are the best gift of the age of internet,so that we do not have to do the same work.——Conclude from Etter's book, page 30,about Do Not Duplicate._
 
 step 3.  **Clone the fork to local.**
 
 This step need you log in your GitHub desktop, and do the following operation in the gif:
  ![gif1](/gif/clone.gif)
+1. Click file-> Clone repository.<br/>
+2. Chose the template we have already forked.<br/>
+3. Click clone to clone it to the local path, if we don't set it, the default path should be YOURUSERFOLDER/GitHub.<br/>
 
-Remember your local path, so that you can find the folder and edit the files we need.
+* Now we we an access the local copy by click the button 'Show in Explorer'.
+
+_The reason we attempt to copy the resources to local and manipuate it offline is we wish to control the version, remember, the follwoing processing is time-comsuming, and you need fail&trail unavoidably.—— Conclude from Etter's book, page 28，about Distributed Version Control_
+
+
+* Remember your local path, so that you can find the folder and edit the files we need.
 
 step 4.  **Edit your own documents.**
 
 Now we can use the template to build our own resume.
 
-For different templates, the file we can edit are not same. Check the README.md in template to know the file we can edit:
+* For different templates, the files we can edit are not same. Check the README.md in template to know the file we can edit:
 
-For example, we can find the **Usage** in our example template.![img3](/img/usage.jpg) 
+* For example, we can find the **Usage** in our example template.For this case, we can open **'_config.yml'** and edit. ![img3](/img/usage.jpg) 
 
-For this case, we can open **'_config.yml'** and edit. 
+_Localization is always the most annoying part, especially you have to write your resume in markdown into other format.For this reason, I highly recommand you using the templates support html because it have better compatibility with .md——Conclude from Etter's book, page 40, about localization, when I realized that my config file is YML_
 
-And the explorer I used for this step is [visual studio code](https://code.visualstudio.com/).
+* And the explorer I used for this step is [visual studio code](https://code.visualstudio.com/).
 
-step 5.  **Use Jekyll to test your static site.**
 
-* Open CMD of windows, and use command line 'cd YOUR FOLDER PATH' to reach your folder.
+
+step 5.  **Use Jekyll to test your static site locally.**
+
+_Make a static website does not mean for huge effort, actually, GitHub provides lightweight files on web.——Conclude from Etter's book, page 32, about make static websites._
+
+**Important: This step will not affect the following step, you can still host your site if you can not handle the ruby package locally. What we are doing here is just make a preview, before we mess up things on our GitHub repository.**
+
+1. Open CMD of windows, and use command line 'cd YOUR FOLDER PATH' to reach your folder.
 * Using command line 'bundle install' to install the reaquired adds on.
 *  Using the following command line 'jekyll serve to hold a site'
 *  if success, you should see something like this:
@@ -76,11 +94,14 @@ step 5.  **Use Jekyll to test your static site.**
 
 step 6. **push the edited files back to your online repository.**
 
-When we change the content in the clone of repository, GitHub desktop will show the changes at left. then we can commit it back to our master branch. You can find the commit button at the bottom left corner.
+_GitHub Desktop is a good choice, at least you don't have to bother terimal to do advanced operation when you are not familiar with them.——Conclude from Etter's book, page 28，When I realized I mess everything up due to a mis-click pushing_
 
-Then we can just push it back and check it on our GitHub account.
+1. When we change the content in the clone of repository, GitHub desktop will show the changes at left. 
+* then we can commit it back to our master branch. You can find the commit button at the bottom left corner.
+* Then we can just push it back and check it on our GitHub account.
 
 **Demo**
+
 If all the steps are done correctly, you can view your resume now by enter the address USERNAME.github.io:
 
 ![gifn](/gif/demo.gif)
@@ -91,10 +112,10 @@ If you have few knowledge about Markdown, [here](https://www.markdowntutorial.co
 
 If you have difficulty on finish your resum, [Etter's book](https://read.amazon.ca/?ref_=dbs_p_ebk_r00_pbcb_rnvc00&_encoding=UTF8&asin=B01A2QL9SS) can provide you some advices.
 
-Since I used windows OS for the instruction, you can find another version of instructions [here](https://read.amazon.ca/?ref_=dbs_p_ebk_r00_pbcb_rnvc00&_encoding=UTF8&asin=B01A2QL9SS) about how to do all the procedure on mac.
+Since I used windows OS for the instruction, you can find another version of instructions [here](https://www.youtube.com/watch?v=WhrU9m82Wm8&list=PLLAZ4kZ9dFpOPV5C5Ay0pHaa0RJFhcmcB&index=2) about how to do all the procedure on mac.
 
 ## Authors and Acknowledgments
-The resume templates I used in instructions came from [here](https://github.com/sproogen/modern-resume-theme).Thanks for [name] who provide the template and well designed readme.
+The resume templates I used in instructions came from [here](https://github.com/sproogen/modern-resume-theme).Thanks for [Brett Harris](https://sproogen.github.io/modern-resume-theme/) who provide the template and well designed readme.
 
 Also thanks for Craig Banahene  and Quinn Wong, the group members who provide precious advices to make my files looks better.
 
