@@ -97,8 +97,8 @@ step 6. **push the edited files back to your online repository.**
 _GitHub Desktop is a good choice, at least you don't have to bother terimal to do advanced operation when you are not familiar with them.——Conclude from Etter's book, page 28，When I realized I mess everything up due to a mis-click pushing_
 
 1. When we change the content in the clone of repository, GitHub desktop will show the changes at left. 
-* then we can commit it back to our master branch. You can find the commit button at the bottom left corner.
-* Then we can just push it back and check it on our GitHub account.
+2. then we can commit it back to our master branch. You can find the commit button at the bottom left corner.
+3. Then we can just push it back and check it on our GitHub account.
 
 **Demo**
 
